@@ -1,5 +1,5 @@
 {
-  "name": "@imaware/secretenv",
+  "name": "@imaware/googleapis-improved",
   "version": "0.0.1",
   "description": "NodeJS utility for automatically resolving environment variables to secret values.",
   "main": "dist/index.js",
