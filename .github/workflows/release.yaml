@@ -19,11 +19,9 @@ jobs:
     - id: install
       run: yarn install --frozen-lockfile
     - name: Set up GCP Cloud SDK
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/auth@v0
       with:
-        project_id: imaware-test
-        service_account_key: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-        export_default_credentials: true
+        credentials_json: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
     - id: integration
       run: yarn test:integration
     - name: Semantic Release
