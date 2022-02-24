@@ -9,11 +9,13 @@ jobs:
     permissions:
       contents: 'read'
       id-token: 'write'
+      packages: 'write'
     steps:
     - name: Checkout
       uses: actions/checkout@v2
       with:
         ref: 'master'
+        token: ${{ secrets.BOT_TOKEN }}
     # Setup .npmrc file to publish to npm
     - uses: actions/setup-node@v2.5.0
       with:
