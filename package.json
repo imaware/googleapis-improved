@@ -52,7 +52,7 @@
     "@imaware/fhir-gen": "^0.9.2",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/aws-sdk": "^2.7.0",
-    "@types/jest": "^27.0.1",
+    "@types/jest": "27.4.0",
     "@types/node": "^16.10.3",    
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
