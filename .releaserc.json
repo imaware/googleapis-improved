@@ -2,7 +2,7 @@
     "branches": ["master"],
     "tagFormat": "v${version}",
     "plugins": ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/changelog", "@semantic-release/git", "@semantic-release/github","@semantic-release/npm"],
-    "verifyConditions": ["@semantic-release/git", "@semantic-release/github"],
+    "verifyConditions": ["@semantic-release/git", "@semantic-release/github","@semantic-release/npm"],
     "analyzeCommits": [
       {
         "path": "@semantic-release/commit-analyzer",
@@ -126,6 +126,9 @@
     "publish": [
       {
         "path": "@semantic-release/github"
+      },
+      {
+        "path": "@semantic-release/npm"
       }
     ],
     "success": ["@semantic-release/github"],
