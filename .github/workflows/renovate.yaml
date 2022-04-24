@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: checkout
-        uses: actions/checkout@v2.4.1
+        uses: actions/checkout@v2.4.2
       - id: npm-setup
         uses: actions/setup-node@v2.5.1
         with:
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: checkout
-        uses: actions/checkout@v2.4.1
+        uses: actions/checkout@v2.4.2
       - id: npm-setup
         uses: actions/setup-node@v2.5.1
         with:
