@@ -1241,6 +1241,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@faker-js/faker@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.2.0.tgz#6d836ee8a580589b60c9088a3bdb0b669a468825"
+  integrity sha512-3kIcQ+aTr3I+LqDbJwbINFk5oA+a63LH57GPJt9PM8AWqN7nCwnubuSiWosHYQlyf2NicrvpzXQxllyLeEdpyQ==
+
 "@gar/promisify@^1.0.1":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
@@ -1260,16 +1265,16 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@imaware/fhir-gen@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@imaware/fhir-gen/-/fhir-gen-0.9.2.tgz#ede5eccd32f04d0dbd3c9829bdab3f89ef41eb11"
-  integrity sha512-O7HxS3o9iT8LGfp3kXwrNm1skIFxt2QTobdfUUHnAR5D/EX2eh9kLIJY2+ADLCjtePjDvr1KRN0cHZ6vbpreuw==
+"@imaware/fhir-gen@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@imaware/fhir-gen/-/fhir-gen-0.11.0.tgz#351994995477506887e8024b31d6abc6f6419e1b"
+  integrity sha512-qmumh0mLcPJ56aYTTjFp04uLHElD8LnGuhsYEYkBW1w5O1utu3A3x9wmPkkjOZ5Ix/EoGRNprDNw4wUgA5qj2g==
   dependencies:
-    "@imaware/ts-fhir-types" "^1.0.3"
-    faker "^5.5.3"
+    "@faker-js/faker" "^6.2.0"
+    "@imaware/ts-fhir-types" "^1.1.0"
     fishery "^2.1.0"
 
-"@imaware/ts-fhir-types@^1.0.3", "@imaware/ts-fhir-types@^1.1.0":
+"@imaware/ts-fhir-types@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@imaware/ts-fhir-types/-/ts-fhir-types-1.1.0.tgz#fd7fb8163870b84dd4d2fd1977ea5e2564409425"
   integrity sha512-CMNSNOPkl82UjYJpqp9+TKaosfjTK051Z5xPx7F1xo3hLHc1Z8KNpqkd8O/8kugZXKWWUo4zedOZw+wW5JxkQw==
@@ -3825,11 +3830,6 @@ extsprintf@^1.2.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
   integrity sha512-Wrk35e8ydCKDj/ArClo1VrPVmN8zph5V4AtHwIuHhvMXsKf73UT3BOD+azBIW+3wOJ4FhEH7zyaJCFvChjYvMA==
-
-faker@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/faker/-/faker-5.5.3.tgz#c57974ee484431b25205c2c8dc09fda861e51e0e"
-  integrity sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g==
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
