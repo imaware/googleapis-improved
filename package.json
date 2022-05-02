@@ -44,9 +44,9 @@
     "googleapis": "^95.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.6",
-    "@babel/core": "7.17.9",
-    "@babel/preset-env": "7.16.11",
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
     "@babel/preset-typescript": "7.16.7",
     "@commitlint/config-conventional": "15.0.0",
     "@imaware/fhir-gen": "0.11.0",
